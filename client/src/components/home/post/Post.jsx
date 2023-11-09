@@ -51,6 +51,7 @@ const Post = ({ post }) => {
             <Details>{addEllipsis(post.description, 100)}</Details>
             <Text>Author: {post.username} </Text>
             <Text>Date: {post.createdDate.substring(0, 10)}</Text>
+            < CommentIcon/>
         </Container>
     )
 }
